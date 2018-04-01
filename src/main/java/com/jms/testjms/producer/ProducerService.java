@@ -5,6 +5,8 @@ import javax.jms.MessageNotWriteableException;
 
 public interface ProducerService {
 
+    public void test();
+
     public void sendMessage(Destination destination, String msg) throws MessageNotWriteableException;
 
 }
