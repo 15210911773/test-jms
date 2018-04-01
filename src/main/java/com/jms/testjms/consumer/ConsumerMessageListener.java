@@ -12,6 +12,8 @@ import javax.jms.TextMessage;
 @Component
 public class ConsumerMessageListener {
 
+    //v1.0版本修改
+
     @JmsListener(destination = JmsConstant.springQueueName)
     public void receiveQueue(String message) {
         System.err.println("接收请求:" + message);
