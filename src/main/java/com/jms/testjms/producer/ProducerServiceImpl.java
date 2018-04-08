@@ -16,6 +16,11 @@ public class ProducerServiceImpl implements ProducerService {
     private JmsTemplate jmsTemplate;
 
     @Override
+    public void test2() { //test
+
+    }
+
+    @Override
     public void sendMessage(Destination destination, String msg) throws MessageNotWriteableException {
         jmsTemplate.send(destination, new MessageCreator() {
             @Override
