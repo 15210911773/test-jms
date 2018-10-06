@@ -5,7 +5,7 @@ package com.jms.testjms.consumer;
  */
 public class Branch01Test {
 
-    private String otherBranch;
+    private String master;
 
 }
 
