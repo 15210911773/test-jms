@@ -7,6 +7,7 @@ public class Branch01Test {
 
     private String master; // test - master
     private String test;
+    private String masterTest;
 
 }
 
